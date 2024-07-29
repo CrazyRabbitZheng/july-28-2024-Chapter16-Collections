@@ -15,6 +15,8 @@ public class UsingToArray {
         links.add(3,"orange");
         links.add(4,"cyan");
 
+        System.out.println(links);
+
         colors = links.toArray(new String[links.size()]);
 
         System.out.println("Colors:");
